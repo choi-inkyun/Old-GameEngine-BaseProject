@@ -1,0 +1,12 @@
+IMAGECOUNT=1 0
+CLOLORKEY=255 0 255
+// IMAGECOUNT 왼쪽은 PCOUNT 총합, 오른쪽은 버튼에 대한 인덱스입니다.
+// CLOLORKEY 칼라키입니다. 어떤 색을 투명색으로 뺄지.
+// 순서대로 타일번호, 넓이, 높이, 뿌릴x위치, 뿌릴 y위치, 스케일x, 스케일y, type, flag1,flag2(버튼시중요)(gif 일때는 애니메이션시타임), 어떤format로 뿌릴지.
+// 맨 밑에 gif 임팩트 리스트들이 와야한다. 그 위에 bmp 임펙트
+
+// 게임 화면에 대한 스킨들을 정의 합니다 //
+// type = 0 : 일반 이미지, 1 : 버튼, 2 : bmp 임팩트, 3 : gif 임팩트, 4 : 마우스 좌표 체크
+FILENAME=data/image/bg.jpg	1024	768
+PCOUNT=1
+0=GAME_MAIN			0 	1024	768	0	0	1	1	0	0	0	20

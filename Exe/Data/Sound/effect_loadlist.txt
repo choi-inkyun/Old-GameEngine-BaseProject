@@ -1,0 +1,3 @@
+SOUND=EFFECT
+PCOUNT=1
+0=ENTER				Data\\sound\\GameSound\\enter.wav		0
